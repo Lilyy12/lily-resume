@@ -2,6 +2,8 @@ import React from 'react';
 import './Resume.css'; 
 
 function Resume() {
+
+
   return (
     <div className="resume">
       <header>
@@ -22,6 +24,14 @@ function Resume() {
 
       <section className="work-experience">
         <h2>Work Experiences</h2>
+        <div className="experience-item">
+            <h3>Software Engineer</h3>
+          <p>https://www.trayport.com/</p>
+          <p>September 2023 - Present</p>
+          <ul>
+            <li>Just joining the team for junior backend position based in London.</li>
+          </ul>
+        </div>
         <div className="experience-item">
           <h3>Graduate Software Engineer</h3>
           <p>https://www.codat.io/</p>

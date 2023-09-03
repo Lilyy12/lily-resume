@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from './Resume/Resume' // Adjust the path as needed
+import Resume from './Resume/Resume' 
 
 function App() {
   return (
