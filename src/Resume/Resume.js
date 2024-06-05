@@ -15,10 +15,8 @@ function Resume() {
       <section className="personal-statement">
         <h2>Personal Statement</h2>
         <p>
-        Hey there! 👋 I'm Lily, and I'm a junior software engineer with a genuine love for all things tech. You could say I'm a bit of a tech enthusiast – whether it's diving into the latest programming languages, experimenting with cool new frameworks, or just geeking out over the latest gadgets, I'm always up for it!<br/><br/>
-        I thrive on learning and growth, and I'm not afraid to dive headfirst into new challenges. The tech world moves fast, and I see that as an opportunity rather than a hurdle. My goal is to soak up as much knowledge as I can and apply it to create innovative solutions that make a real impact.<br/><br/>
-        But it's not just about the code for me. I believe in the power of collaboration and teamwork. I love bouncing ideas off my fellow developers, brainstorming creative solutions, and working together to bring projects to life.<br/><br/>
-        So, if you're ever up for a tech chat, a coding challenge, or just want to explore the ever-evolving world of technology, count me in! Let's learn, grow, and create awesome things together. 🚀💻
+        I'm software engineer specialise in C# and .NET with almost 2 years of experiences working in trading company and API providers start-up. 
+        My main area of expertise is backend but not limited, I also have experience in frontend and DevEx helping team successfully deploy the system and achieving product purposes.
         </p>
       </section>
 
@@ -27,57 +25,32 @@ function Resume() {
         <div className="experience-item">
             <h3>Software Engineer</h3>
           <p>https://www.trayport.com/</p>
-          <p>September 2023 - Present</p>
+          <p>September 2023 - Present (10 Months)</p>
+          <p><b>Tech Stack</b>: C#, .NET, Azure, SQL Server, Git, Docker</p>
           <ul>
-            <li>Just joining the team for junior backend position based in London.</li>
+            <li>Be part of connectivity team, helping Trayport build backend core system using C# and .NET framework</li>
+            <li>Use git version control to manage code repositories and collaborate with team members</li>
+            <li>Participate in code reviews to maintain code quality and ensure adherence to coding standards</li>
+            <li>Write unit tests to validate the functionality of code modules</li>
+            <li>Maintain clear and effective communication with team members, stakeholders, and clients</li>
+            <li>Build CI/CD on Azure cloud to help team deploy project on multiple environments</li>
+            <li>Write RFC, investigate tech debt issue and do timeline estimation for small project</li>
           </ul>
         </div>
         <div className="experience-item">
           <h3>Graduate Software Engineer</h3>
           <p>https://www.codat.io/</p>
           <p>September 2022 - August 2023 (1 Year)</p>
-          <p>Tech Stack: C#, .NET, Azure, ASP.NET, SQL, REST API, TypeScript, React</p>
+          <p><b>Tech Stack</b>: C#, .NET, Azure, ASP.NET, SQL, REST API, TypeScript, React</p>
           <ul>
-            <li>Write clean, maintainable, and efficient C# code for backend systems.</li>
-            <li>Develop and implement server-side logic and APIs using .NET technologies.</li>
-            <li>Build RESTful APIs for communication between the frontend and backend systems.</li>
-            <li>Conduct thorough testing and debugging of applications.</li>
-            <li>Work closely with cross-functional teams to understand project requirements and deliver on time.</li>
-            <li>Use version control systems like Git to manage code repositories and collaborate with team members.</li>
-            <li>Participate in code reviews to maintain code quality and ensure adherence to coding standards.</li>
-            <li>Write unit tests to validate the functionality of code modules.</li>
-            <li>Conduct automated testing and ensure code coverage.</li>
-            <li>Stay up-to-date with industry trends, new technologies, and best practices in backend development.</li>
-            <li>Maintain clear and effective communication with team members, stakeholders, and clients.</li>
+            <li>Part of graduate program at Codat, they are offering the training program which including the opportunities to working across software engineer team</li>
+            <li>Design, develop and maintain scalable and efficient backend systems using .NET framework</li>
+            <li>Research and evaluate new technologies and frameworks, and propose and implement improvements to existing backend infrastructure and processes to improve development productivity and system performance</li>
+            <li>Implemented unit testing and deployment processes for backend services</li>
+            <li>Build RESTful APIs as a service and help SMEs integrated financial data to big technology software</li>
+            <li>Conduct automated testing and ensure code coverage</li>
           </ul>
         </div>
-
-        <div className="experience-item">
-          <h3>Business Analyst Intern</h3>
-          <p>https://gigabitnetworks.co.uk/</p>
-          <p>July 2021 - October 2021 (4 months)</p>
-          <ul>
-            <li>Conduct market research to gather information about industry trends and competitive analysis.</li>
-            <li>Analyze business processes, workflows, and data to identify areas for improvement.</li>
-            <li>Act as a liaison between business stakeholders and technical teams to ensure clear communication.</li>
-          </ul>
-        </div>
-
-        <div className="experience-item">
-          <h3>Student Teaching and Learning Consultant (Researcher)</h3>
-          <p>https://www.dmu.ac.uk/</p>
-          <p>January 2021 - June 2021 (6 months)</p>
-          <ul>
-            <li>Conduct research to identify best practices and trends in online education and digital learning.</li>
-            <li>Assist in gathering data and information related to online learning initiatives.</li>
-            <li>Collect and analyse data from various sources, such as surveys, student feedback, and online learning platforms.</li>
-            <li>Summarise research findings and provide insights to inform decision-making.</li>
-            <li>Evaluate the quality and effectiveness of online course materials, including videos, lectures, and interactive content.</li>
-            <li>Communicate research findings and recommendations to relevant stakeholders.</li>
-            <li>Ensure that research activities comply with ethical guidelines and standards.</li>
-          </ul>
-        </div>
-
       </section>
 
       <section className="education">
