@@ -43,7 +43,7 @@ function Resume() {
         <div className="experience-item">
             <h3>Software Engineer</h3>
           <p>https://www.trayport.com/</p>
-          <p>September 2023 - March 2024 (1 Year 8 Month(s))</p>
+          <p>September 2023 - March 2025 (1 Year 8 Month(s))</p>
           <p><b>Tech Stack</b>: C#, .NET, Azure, SQL Server, Git, Docker</p>
           <ul>
             <li>Be part of connectivity team, helping Trayport build backend core system using C# and .NET framework</li>
