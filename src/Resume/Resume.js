@@ -2,10 +2,10 @@ import React from 'react';
 import './Resume.css'; 
 
 function Resume() {
-  const startDate = new Date(2023, 8);
+  const startDate = new Date(2025, 4);
   const currentDate = new Date();
   const monthsDifference = (currentDate.getFullYear() - startDate.getFullYear()) * 12 
-                        + (currentDate.getMonth() - startDate.getMonth());
+                        + (currentDate.getMonth() - startDate.getMonth() + 1);
   const years = Math.floor(monthsDifference / 12); // Full years
   const months = monthsDifference % 12;
 
@@ -20,8 +20,7 @@ function Resume() {
       <section className="personal-statement">
         <h2>Personal Statement</h2>
         <p>
-        I'm software engineer specialising in C# and .NET with more than 2 years of experience working in a commodity trading company and API providers start-up. 
-        My main area of expertise is backend but not limited, I also have skills in frontend, DevEx and DevOps helping team deploy the system and achieving product’s purposes.
+        I'm a software engineer specialising in C# and .NET with more than 3 years of experience currently working in a global leading online payment system in London. My main area of expertise is backend but not limited, I also have skills in leadership, product, frontend, DevEx and DevOps helping team deploy the system and achieving product’s purposes.
         </p>
       </section>
 
@@ -29,8 +28,22 @@ function Resume() {
         <h2>Work Experiences</h2>
         <div className="experience-item">
             <h3>Software Engineer</h3>
+          <p>https://www.checkout.com/</p>
+          <p>April 2025 - Present ({years} Year(s) {months} Month(s))</p>
+          <p><b>Tech Stack</b>: C#, .NET, TypeScript, Terraform</p>
+          <ul>
+            <li>Contributed to the Routing Team at Checkout.com, optimising transaction redirection through the most efficient payment routes.</li>
+            <li>Served as an on-call engineer, acting as the first responder during production incidents and ensuring rapid issue resolution.</li>
+            <li>Collaborated with product managers to refine user stories, translating business logic into technically actionable tasks.</li>
+            <li>Developed and maintained backend systems, emphasising high-quality code through thorough testing and peer reviews.</li>
+            <li>Organised and led technical meetings, facilitating cross-team communication and taking initiative on project leadership.</li>
+          </ul>
+        </div>
+
+        <div className="experience-item">
+            <h3>Software Engineer</h3>
           <p>https://www.trayport.com/</p>
-          <p>September 2023 - Present ({years} Year(s) {months} Month(s))</p>
+          <p>September 2023 - March 2024 (1 Year 8 Month(s))</p>
           <p><b>Tech Stack</b>: C#, .NET, Azure, SQL Server, Git, Docker</p>
           <ul>
             <li>Be part of connectivity team, helping Trayport build backend core system using C# and .NET framework</li>
@@ -43,6 +56,7 @@ function Resume() {
             <li>Write RFC, investigate tech debt issue and do timeline estimation for small projects</li>
           </ul>
         </div>
+
         <div className="experience-item">
           <h3>Software Engineer</h3>
           <p>https://www.codat.io/</p>
